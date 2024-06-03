@@ -1,7 +1,16 @@
-import './index.js';
+import './style.css';
+import Logo from "../Logo";
+import OptionsHeader from "../OptionsHeader";
+import IconesHeader from "../IconesHeader";
 
-<header className="App-header">
-<Logo /> 
-<OptionsHeader />
-<IconesHeader />
-<Header>
+function Header(){
+    return (
+        <header className="App-header">
+    <Logo /> 
+    <OptionsHeader />
+    <IconesHeader />
+        </header>
+    );
+};
+
+export default Header;
